@@ -53,7 +53,6 @@ func computerPlays(win *[8][3]int, board *[9]string, marker *[2]string) {
 			return
 		}
 	}
-	// dublicate of func Check free space
 	for i, x := range board {
 		if x == " " {
 			board[i] = marker[1]
